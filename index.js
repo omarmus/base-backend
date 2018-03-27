@@ -10,7 +10,7 @@ const api = require('./api');
 const hook = require('./lib/hook');
 
 // Create the Sequelize instance
-const sequelize = new Sequelize('sqlite://examen.sqlite');
+const sequelize = new Sequelize('sqlite://taller.sqlite');
 
 // Create the Express application
 const app = express();
